@@ -1,0 +1,15 @@
+org\example\app_for_studing_java\HelloApplication.class
+org\example\app_for_studing_java\TestByTopic$ChoiceBoxTest.class
+org\example\app_for_studing_java\TestGenerator.class
+org\example\app_for_studing_java\TestByTopic$RadioButtonTest.class
+org\example\app_for_studing_java\TestByTopic$CheckBoxTest.class
+org\example\app_for_studing_java\InitializatorOfListOfTests.class
+module-info.class
+org\example\app_for_studing_java\ListOfTests$Test.class
+org\example\app_for_studing_java\SetLectures.class
+org\example\app_for_studing_java\TestByTopic$ComboBoxTest.class
+org\example\app_for_studing_java\HelloController.class
+org\example\app_for_studing_java\ListOfTests.class
+org\example\app_for_studing_java\EmptyController.class
+org\example\app_for_studing_java\TestForTopicController.class
+org\example\app_for_studing_java\TestByTopic.class

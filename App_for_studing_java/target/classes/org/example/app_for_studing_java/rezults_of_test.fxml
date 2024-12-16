@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import org.controlsfx.control.WorldMapView?>
+
+<AnchorPane prefHeight="520.0" prefWidth="960.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.app_for_studing_java.RezultsOfTestController">
+   <children>
+      <TableView fx:id="rezults_table" layoutY="87.0" prefHeight="435.0" prefWidth="962.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="87.0">
+        <columns>
+            <TableColumn fx:id="test_num" prefWidth="37.866703033447266" text="№" />
+          <TableColumn fx:id="question_table" prefWidth="378.6666488647461" text="запипання" />
+          <TableColumn fx:id="user_answer_table" prefWidth="281.60003662109375" text="ваша відповідь" />
+            <TableColumn id="column_4" fx:id="correct_answer_table" minWidth="0.0" prefWidth="260.00006103515625" text="правильна відповіть" />
+        </columns>
+      </TableView>
+      <Text layoutX="338.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Підсумки тестування" wrappingWidth="311.1751403808594">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Label fx:id="final_score" layoutX="263.0" prefHeight="42.0" prefWidth="451.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <WorldMapView fx:id="map" layoutX="728.0" prefHeight="87.0" prefWidth="234.0" />
+   </children>
+</AnchorPane>

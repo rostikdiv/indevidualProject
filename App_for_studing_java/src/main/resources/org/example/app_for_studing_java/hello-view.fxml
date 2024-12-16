@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="ancorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="960.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.app_for_studing_java.HelloController">
+   <children>
+      <MenuBar prefHeight="32.0" prefWidth="960.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem fx:id="topic_1" mnemonicParsing="false" onAction="#open_lecture" text="ТЕМА 1: Огляд мови програмування Java" />
+                  <MenuItem fx:id="topic_2" mnemonicParsing="false" onAction="#open_lecture" text="ТЕМА 2: Типи даних" />
+                  <MenuItem fx:id="topic_3" mnemonicParsing="false" onAction="#open_lecture" text="ТЕМА 3: Змінні, оператори та вирази" />
+                  <MenuItem fx:id="topic_4" mnemonicParsing="false" onAction="#open_lecture" text="ТЕМА 4: Основні структури програм (цикли, умовні оператори)" />
+                  <MenuItem fx:id="topic_5" mnemonicParsing="false" onAction="#open_lecture" text="ТЕМА 5: Класи та об'єкти" />
+                  <MenuItem fx:id="topic_6" mnemonicParsing="false" onAction="#open_lecture" text="ТЕМА 6: Інкапсуляція" />
+                  <MenuItem fx:id="topic_7" mnemonicParsing="false" onAction="#open_lecture" text="ТЕМА 7: Наслідування" />
+                  <MenuItem fx:id="topic_8" mnemonicParsing="false" onAction="#open_lecture" text="ТЕМА 8: Поліморфізм" />
+                  <MenuItem fx:id="topic_9" mnemonicParsing="false" onAction="#open_lecture" text="ТЕМА 9: Абстракція" />
+                  <MenuItem fx:id="topic_10" mnemonicParsing="false" onAction="#open_lecture" text="ТЕМА 10: Списки, множини, карти (List, Set, Map)" />
+                  <MenuItem fx:id="topic_11" mnemonicParsing="false" onAction="#open_lecture" text="ТЕМА 11: try-catch блоки" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem fx:id="test_1" mnemonicParsing="false" onAction="#open_test" text="Тест по темі 1" />
+                  <MenuItem fx:id="test_2" mnemonicParsing="false" onAction="#open_test" text="Тест по темі 2" />
+                  <MenuItem fx:id="test_3" mnemonicParsing="false" onAction="#open_test" text="Тест по темі 3" />
+                  <MenuItem fx:id="test_4" mnemonicParsing="false" onAction="#open_test" text="Тест по темі 4" />
+                  <MenuItem fx:id="test_5" mnemonicParsing="false" onAction="#open_test" text="Тест по темі 5" />
+                  <MenuItem fx:id="test_6" mnemonicParsing="false" onAction="#open_test" text="Тест по темі 6" />
+                  <MenuItem fx:id="test_7" mnemonicParsing="false" onAction="#open_test" text="Тест по темі 7" />
+                  <MenuItem fx:id="test_8" mnemonicParsing="false" onAction="#open_test" text="Тест по темі 8" />
+                  <MenuItem fx:id="test_9" mnemonicParsing="false" onAction="#open_test" text="Тест по темі 9" />
+                  <MenuItem fx:id="test_10" mnemonicParsing="false" onAction="#open_test" text="Тест по темі 10" />
+                  <MenuItem fx:id="test_11" mnemonicParsing="false" onAction="#open_test" text="Тест по темі 11" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TextArea fx:id="text_area" editable="false" layoutY="32.0" prefHeight="488.0" prefWidth="960.0" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="32.0" />
+   </children>
+</AnchorPane>

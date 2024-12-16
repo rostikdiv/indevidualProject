@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="520.0" prefWidth="960.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.app_for_studing_java.TestForTopicController">
+   <children>
+      <VBox prefHeight="520.0" prefWidth="166.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="794.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="ask_1" mnemonicParsing="false" onAction="#getTest" prefHeight="38.0" prefWidth="113.0" text="Test 1">
+               <VBox.margin>
+                  <Insets bottom="6.0" left="25.0" right="25.0" top="16.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="ask_2" mnemonicParsing="false" onAction="#getTest" prefHeight="38.0" prefWidth="113.0" text="Test 2">
+               <VBox.margin>
+                  <Insets bottom="6.0" left="25.0" right="25.0" top="6.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="ask_3" mnemonicParsing="false" onAction="#getTest" prefHeight="38.0" prefWidth="113.0" text="Test 3">
+               <VBox.margin>
+                  <Insets bottom="6.0" left="25.0" right="25.0" top="6.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="ask_4" mnemonicParsing="false" onAction="#getTest" prefHeight="38.0" prefWidth="113.0" text="Test 4">
+               <VBox.margin>
+                  <Insets bottom="6.0" left="25.0" right="25.0" top="6.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="ask_5" mnemonicParsing="false" onAction="#getTest" prefHeight="38.0" prefWidth="113.0" text="Test 5">
+               <VBox.margin>
+                  <Insets bottom="6.0" left="25.0" right="25.0" top="6.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="ask_6" mnemonicParsing="false" onAction="#getTest" prefHeight="38.0" prefWidth="113.0" text="Test 6">
+               <VBox.margin>
+                  <Insets bottom="6.0" left="25.0" right="25.0" top="6.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="ask_7" mnemonicParsing="false" onAction="#getTest" prefHeight="38.0" prefWidth="113.0" text="Test 7">
+               <VBox.margin>
+                  <Insets bottom="6.0" left="25.0" right="25.0" top="6.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="ask_8" mnemonicParsing="false" onAction="#getTest" prefHeight="38.0" prefWidth="113.0" text="Test 8">
+               <VBox.margin>
+                  <Insets bottom="6.0" left="25.0" right="25.0" top="6.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="ask_9" mnemonicParsing="false" onAction="#getTest" prefHeight="38.0" prefWidth="113.0" text="Test 9">
+               <VBox.margin>
+                  <Insets bottom="6.0" left="25.0" right="25.0" top="6.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="ask_10" mnemonicParsing="false" onAction="#getTest" prefHeight="38.0" prefWidth="113.0" text="Test 10">
+               <VBox.margin>
+                  <Insets bottom="16.0" left="25.0" right="25.0" top="6.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <TextArea fx:id="textArea" layoutX="195.0" layoutY="29.0" prefHeight="200.0" prefWidth="698.0" AnchorPane.bottomAnchor="291.0" AnchorPane.leftAnchor="195.0" AnchorPane.rightAnchor="67.0" AnchorPane.topAnchor="29.0" />
+      <RadioButton fx:id="radioButton_1" layoutX="225.0" layoutY="241.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="606.0" text="RadioButton" visible="false" AnchorPane.bottomAnchor="233.0" AnchorPane.leftAnchor="225.0" AnchorPane.rightAnchor="129.0" AnchorPane.topAnchor="241.0" />
+      <RadioButton fx:id="radioButton_2" layoutX="225.0" layoutY="294.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="606.0" text="RadioButton" visible="false" AnchorPane.bottomAnchor="180.0" AnchorPane.leftAnchor="225.0" AnchorPane.rightAnchor="129.0" AnchorPane.topAnchor="294.0" />
+      <RadioButton fx:id="radioButton_3" layoutX="225.0" layoutY="349.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="606.0" text="RadioButton" visible="false" AnchorPane.bottomAnchor="125.0" AnchorPane.leftAnchor="225.0" AnchorPane.rightAnchor="129.0" AnchorPane.topAnchor="349.0" />
+      <RadioButton fx:id="radioButton_4" layoutX="225.0" layoutY="404.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="606.0" text="RadioButton" visible="false" AnchorPane.bottomAnchor="70.0" AnchorPane.leftAnchor="225.0" AnchorPane.rightAnchor="129.0" AnchorPane.topAnchor="404.0" />
+      <Button fx:id="Btn_get_answer" layoutX="195.0" layoutY="462.0" mnemonicParsing="false" onAction="#getAnswer" prefHeight="38.0" prefWidth="332.0" text="зберегти відповідь" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="195.0" AnchorPane.rightAnchor="433.0" AnchorPane.topAnchor="462.0" />
+      <CheckBox fx:id="checkBox_1" layoutX="195.0" layoutY="268.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="554.0" text="CheckBox" visible="false" AnchorPane.bottomAnchor="214.0" AnchorPane.leftAnchor="195.0" AnchorPane.rightAnchor="211.0" AnchorPane.topAnchor="268.0" />
+      <CheckBox fx:id="checkBox_2" layoutX="195.0" layoutY="302.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="554.0" text="CheckBox" visible="false" AnchorPane.bottomAnchor="180.0" AnchorPane.leftAnchor="195.0" AnchorPane.rightAnchor="211.0" AnchorPane.topAnchor="302.0" />
+      <CheckBox fx:id="checkBox_3" layoutX="195.0" layoutY="340.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="554.0" text="CheckBox" visible="false" AnchorPane.bottomAnchor="142.0" AnchorPane.leftAnchor="195.0" AnchorPane.rightAnchor="211.0" AnchorPane.topAnchor="340.0" />
+      <CheckBox fx:id="checkBox_4" layoutX="195.0" layoutY="376.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="554.0" text="CheckBox" visible="false" AnchorPane.bottomAnchor="106.0" AnchorPane.leftAnchor="195.0" AnchorPane.rightAnchor="211.0" AnchorPane.topAnchor="376.0" />
+      <CheckBox fx:id="checkBox_5" layoutX="195.0" layoutY="408.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="554.0" text="CheckBox" visible="false" AnchorPane.bottomAnchor="74.0" AnchorPane.leftAnchor="195.0" AnchorPane.rightAnchor="211.0" AnchorPane.topAnchor="408.0" />
+      <ChoiceBox fx:id="choiceBox" layoutX="195.0" layoutY="302.0" prefHeight="38.0" prefWidth="267.0" visible="false" AnchorPane.bottomAnchor="180.0" AnchorPane.leftAnchor="195.0" AnchorPane.rightAnchor="498.0" AnchorPane.topAnchor="302.0" />
+      <ComboBox fx:id="comboBox" layoutX="195.0" layoutY="291.0" prefHeight="38.0" prefWidth="302.0" visible="false" AnchorPane.bottomAnchor="191.0" AnchorPane.leftAnchor="195.0" AnchorPane.rightAnchor="463.0" AnchorPane.topAnchor="291.0" />
+      <Button fx:id="end_test" layoutX="545.0" layoutY="462.0" mnemonicParsing="false" onAction="#endTest" prefHeight="38.0" prefWidth="348.0" text="завершити тестування" />
+   </children>
+</AnchorPane>

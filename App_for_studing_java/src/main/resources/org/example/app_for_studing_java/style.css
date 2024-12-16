@@ -1,0 +1,62 @@
+.button {
+    -fx-background-radius: 10px; /* Радіус закруглення */
+}
+.button:hover {
+    -fx-background-color: #0076b3; /* Колір кнопки при наведенні */
+}
+
+AnchorPane {
+    -fx-background-color: lightblue; /* Задає колір фону */
+}
+
+/* Стилізація TableView */
+.table-view {
+    -fx-background-color: white; /* Колір фону таблиці */
+    -fx-border-color: #ccc; /* Колір межі таблиці */
+    -fx-border-width: 1px; /* Ширина межі таблиці */
+    -fx-padding: 10px; /* Відступи від меж таблиці */
+}
+
+/* Стилізація MenuBar */
+.menu-bar {
+    -fx-background-color: #f0f0f0; /* Світло-сірий фон меню */
+    -fx-text-fill: #333; /* Темно-сірий текст */
+}
+
+/* Стилізація Menu */
+.menu {
+    -fx-background-color: #e0e0e0; /* Світло-сірий фон для елементів меню */
+    -fx-text-fill: #333; /* Темно-сірий текст */
+}
+
+/* Стилізація MenuItem */
+.menu-item {
+    -fx-background-color: transparent; /* Прозорий фон для елементів меню */
+    -fx-text-fill: #333; /* Темно-сірий текст */
+    -fx-padding: 10px 15px; /* Відступи в елементі меню */
+    -fx-font-size: 14px; /* Розмір шрифту для елементів меню */
+}
+
+.menu-item:hover {
+    -fx-background-color: #0076b3; /* Блакитний фон при наведенні */
+    -fx-text-fill: white; /* Білий текст при наведенні */
+}
+
+.menu-item:focused {
+    -fx-background-color: #005a8a; /* Темно-синій фон при фокусуванні */
+    -fx-text-fill: white; /* Білий текст при фокусуванні */
+}
+
+/* Стилізація TextArea */
+.text-area {
+    -fx-background-color: #f5f5f5; /* Колір фону текстової області */
+    -fx-border-color: #ccc; /* Колір межі текстової області */
+    -fx-border-width: 1px; /* Ширина межі текстової області */
+    -fx-padding: 10px; /* Відступи всередині текстової області */
+}
+
+/* Стилізація VBox */
+.vbox {
+    -fx-spacing: 10px; /* Відстань між елементами VBox */
+    -fx-padding: 20px; /* Відступи всередині VBox */
+}
