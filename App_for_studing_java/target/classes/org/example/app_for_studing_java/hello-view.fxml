@@ -10,7 +10,7 @@
    <children>
       <MenuBar prefHeight="32.0" prefWidth="960.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <menus>
-          <Menu mnemonicParsing="false" text="File">
+          <Menu mnemonicParsing="false" text="Лекційні матеріали">
             <items>
               <MenuItem fx:id="topic_1" mnemonicParsing="false" onAction="#open_lecture" text="ТЕМА 1: Огляд мови програмування Java" />
                   <MenuItem fx:id="topic_2" mnemonicParsing="false" onAction="#open_lecture" text="ТЕМА 2: Типи даних" />
@@ -25,7 +25,7 @@
                   <MenuItem fx:id="topic_11" mnemonicParsing="false" onAction="#open_lecture" text="ТЕМА 11: try-catch блоки" />
             </items>
           </Menu>
-          <Menu mnemonicParsing="false" text="Edit">
+          <Menu mnemonicParsing="false" text="Тести по лекціях">
             <items>
               <MenuItem fx:id="test_1" mnemonicParsing="false" onAction="#open_test" text="Тест по темі 1" />
                   <MenuItem fx:id="test_2" mnemonicParsing="false" onAction="#open_test" text="Тест по темі 2" />
@@ -40,13 +40,8 @@
                   <MenuItem fx:id="test_11" mnemonicParsing="false" onAction="#open_test" text="Тест по темі 11" />
             </items>
           </Menu>
-          <Menu mnemonicParsing="false" text="Help">
-            <items>
-              <MenuItem mnemonicParsing="false" text="About" />
-            </items>
-          </Menu>
         </menus>
       </MenuBar>
-      <TextArea fx:id="text_area" editable="false" layoutY="32.0" prefHeight="488.0" prefWidth="960.0" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="32.0" />
+      <TextArea fx:id="text_area" editable="false" layoutY="32.0" prefHeight="488.0" prefWidth="960.0" text="Вітаю у застосунку придназначеному для вивчення мови програмування java тут ви можете вивчати лекційні матеріали і проходити по них тести щоб краще запамятовувати матеріал" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="32.0" />
    </children>
 </AnchorPane>
